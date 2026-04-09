@@ -73,14 +73,15 @@ onMounted(() => store.fetchProjects())
 
 .page-hero {
   padding: calc(#{$header-height} + #{$space-4xl}) 0 $space-4xl;
-  background: $color-cream; text-align: center;
+  background: $color-dark url('/storage/site/side-view-man-working-project.jpg') center/cover no-repeat;
+  text-align: center;
 
   &__subtitle {
     font-size: $font-size-xs; text-transform: uppercase; letter-spacing: 0.3em; color: $color-gold;
     display: block; margin-bottom: $space-md;
   }
-  &__title { font-size: $font-size-5xl; margin-bottom: 0; }
-  &__text { max-width: 600px; margin: $space-xl auto 0; color: $color-warm-gray; line-height: 1.8; font-size: $font-size-lg; }
+  &__title { font-size: $font-size-5xl; margin-bottom: 0; color: $color-ivory; }
+  &__text { max-width: 600px; margin: $space-xl auto 0; color: $color-sand; line-height: 1.8; font-size: $font-size-lg; }
 }
 
 .projects-grid {
