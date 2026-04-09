@@ -1,0 +1,244 @@
+// ========================================
+// Reusable Utility Classes & Components
+// ========================================
+
+// --- Container ---
+.container {
+  width: 100%;
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $space-xl;
+
+  @media (max-width: $breakpoint-md) {
+    padding: 0 $space-md;
+  }
+}
+
+.container--narrow {
+  max-width: $max-width-narrow;
+}
+
+// --- Section ---
+.section {
+  padding: $space-5xl 0;
+
+  @media (max-width: $breakpoint-md) {
+    padding: $space-3xl 0;
+  }
+}
+
+.section--cream {
+  background-color: $color-cream;
+}
+
+.section--dark {
+  background-color: $color-dark;
+  color: $color-ivory;
+
+  h1, h2, h3, h4 {
+    color: $color-ivory;
+  }
+}
+
+// --- Section Header ---
+.section-header {
+  text-align: center;
+  margin-bottom: $space-4xl;
+
+  &__subtitle {
+    font-family: $font-sans;
+    font-size: $font-size-xs;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+    color: $color-gold;
+    margin-bottom: $space-md;
+    display: block;
+  }
+
+  &__title {
+    font-size: $font-size-4xl;
+    margin-bottom: $space-lg;
+
+    @media (max-width: $breakpoint-md) {
+      font-size: $font-size-3xl;
+    }
+  }
+
+  &__description {
+    color: $color-warm-gray;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: $font-size-lg;
+    line-height: 1.8;
+  }
+}
+
+// --- Buttons ---
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: $space-sm;
+  padding: $space-md $space-2xl;
+  font-family: $font-sans;
+  font-size: $font-size-xs;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border: 1px solid transparent;
+  transition: all $transition-base;
+  cursor: pointer;
+  white-space: nowrap;
+
+  &--primary {
+    background-color: $color-dark;
+    color: $color-ivory;
+    border-color: $color-dark;
+
+    &:hover {
+      background-color: $color-gold;
+      border-color: $color-gold;
+      color: $color-dark;
+    }
+  }
+
+  &--outline {
+    background-color: transparent;
+    color: $color-dark;
+    border-color: $color-dark;
+
+    &:hover {
+      background-color: $color-dark;
+      color: $color-ivory;
+    }
+  }
+
+  &--gold {
+    background-color: $color-gold;
+    color: $color-dark;
+    border-color: $color-gold;
+
+    &:hover {
+      background-color: $color-gold-dark;
+      border-color: $color-gold-dark;
+    }
+  }
+
+  &--white {
+    background-color: $color-white;
+    color: $color-dark;
+    border-color: $color-white;
+
+    &:hover {
+      background-color: transparent;
+      color: $color-white;
+    }
+  }
+
+  &--lg {
+    padding: $space-lg $space-3xl;
+    font-size: $font-size-sm;
+  }
+}
+
+// --- Gold Divider ---
+.divider {
+  width: 60px;
+  height: 1px;
+  background-color: $color-gold;
+  margin: $space-xl auto;
+
+  &--left {
+    margin-left: 0;
+  }
+}
+
+// --- Image Container ---
+.img-cover {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+// --- Grid ---
+.grid {
+  display: grid;
+  gap: $space-xl;
+
+  &--2 { grid-template-columns: repeat(2, 1fr); }
+  &--3 { grid-template-columns: repeat(3, 1fr); }
+  &--4 { grid-template-columns: repeat(4, 1fr); }
+
+  @media (max-width: $breakpoint-lg) {
+    &--3, &--4 { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  @media (max-width: $breakpoint-sm) {
+    &--2, &--3, &--4 { grid-template-columns: 1fr; }
+  }
+}
+
+// --- Transitions ---
+.page-fade-enter-active,
+.page-fade-leave-active {
+  transition: opacity $transition-base;
+}
+
+.page-fade-enter-from,
+.page-fade-leave-to {
+  opacity: 0;
+}
+
+// --- Animations ---
+.fade-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity $transition-elegant, transform $transition-elegant;
+
+  &.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// --- Form ---
+.form-group {
+  margin-bottom: $space-lg;
+
+  label {
+    display: block;
+    font-size: $font-size-xs;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-bottom: $space-sm;
+    color: $color-charcoal;
+  }
+
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: $space-md;
+    border: 1px solid $color-beige;
+    background-color: $color-white;
+    color: $color-dark;
+    font-size: $font-size-base;
+    transition: border-color $transition-fast;
+    outline: none;
+
+    &:focus {
+      border-color: $color-gold;
+    }
+
+    &::placeholder {
+      color: $color-sand;
+    }
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 120px;
+  }
+}
