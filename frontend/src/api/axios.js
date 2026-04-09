@@ -3,16 +3,19 @@ import axios from 'axios'
 const api = axios.create({
   baseURL: import.meta.env.VITE_API_URL || '/api',
   headers: {
-    'Content-Type': 'application/json',
     'Accept': 'application/json',
   },
 })
 
-// Request interceptor — attach token
+// Request interceptor — attach token and set content type
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem('aa_token')
   if (token) {
     config.headers.Authorization = `Bearer ${token}`
+  }
+  // Let the browser set Content-Type automatically for FormData (multipart/form-data with boundary)
+  if (!(config.data instanceof FormData)) {
+    config.headers['Content-Type'] = 'application/json'
   }
   return config
 })

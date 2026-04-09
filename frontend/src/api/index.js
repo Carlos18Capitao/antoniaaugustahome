@@ -44,9 +44,7 @@ export const adminApi = {
     create: (data) => api.post('/admin/products', data),
     update: (id, data) => api.put(`/admin/products/${id}`, data),
     delete: (id) => api.delete(`/admin/products/${id}`),
-    uploadImage: (id, formData) => api.post(`/admin/products/${id}/images`, formData, {
-      headers: { 'Content-Type': 'multipart/form-data' },
-    }),
+    uploadImage: (id, formData) => api.post(`/admin/products/${id}/images`, formData),
     deleteImage: (productId, imageId) => api.delete(`/admin/products/${productId}/images/${imageId}`),
     reorderImages: (id, imageIds) => api.put(`/admin/products/${id}/images/reorder`, { image_ids: imageIds }),
   },
@@ -55,12 +53,8 @@ export const adminApi = {
   categories: {
     list: (params = {}) => api.get('/admin/categories', { params }),
     show: (id) => api.get(`/admin/categories/${id}`),
-    create: (data) => api.post('/admin/categories', data, {
-      headers: { 'Content-Type': 'multipart/form-data' },
-    }),
-    update: (id, data) => api.post(`/admin/categories/${id}`, data, {
-      headers: { 'Content-Type': 'multipart/form-data' },
-    }),
+    create: (data) => api.post('/admin/categories', data),
+    update: (id, data) => api.post(`/admin/categories/${id}`, data),
     delete: (id) => api.delete(`/admin/categories/${id}`),
   },
 
@@ -72,9 +66,7 @@ export const adminApi = {
     create: (data) => api.post('/admin/projects', data),
     update: (id, data) => api.put(`/admin/projects/${id}`, data),
     delete: (id) => api.delete(`/admin/projects/${id}`),
-    uploadImage: (id, formData) => api.post(`/admin/projects/${id}/images`, formData, {
-      headers: { 'Content-Type': 'multipart/form-data' },
-    }),
+    uploadImage: (id, formData) => api.post(`/admin/projects/${id}/images`, formData),
     deleteImage: (projectId, imageId) => api.delete(`/admin/projects/${projectId}/images/${imageId}`),
   },
 
