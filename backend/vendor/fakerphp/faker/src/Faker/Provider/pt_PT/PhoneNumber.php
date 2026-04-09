@@ -5,7 +5,7 @@ namespace Faker\Provider\pt_PT;
 class PhoneNumber extends \Faker\Provider\PhoneNumber
 {
     /**
-     * @see http://en.wikipedia.org/wiki/Telephone_numbers_in_Portugal
+     * @see http://en.wikipedia.org/wiki/Telephone_numbers_in_Angola
      */
     protected static $formats = [
         '+351 91#######',

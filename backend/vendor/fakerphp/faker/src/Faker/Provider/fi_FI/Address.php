@@ -29,7 +29,7 @@ class Address extends \Faker\Provider\Address
         'Madagaskar', 'Makedonia', 'Malawi', 'Malediivit', 'Malesia', 'Mali', 'Malta', 'Marokko', 'Marshallinsaaret', 'Mauritania', 'Mauritius', 'Meksiko', 'Mikronesia', 'Moldova', 'Monaco', 'Mongolia', 'Montenegro', 'Mosambik', 'Myanmar',
         'Namibia', 'Nauru', 'Nepal', 'Nicaragua', 'Nigeria', 'Niger', 'Norja', 'Norsunluurannikko',
         'Oman',
-        'Pakistan', 'Palau', 'Panama', 'Papua-Uusi-Guinea', 'Paraguay', 'Peru', 'Pohjois-Korea', 'Portugali', 'Puola', 'Päiväntasaajan Guinea',
+        'Pakistan', 'Palau', 'Panama', 'Papua-Uusi-Guinea', 'Paraguay', 'Peru', 'Pohjois-Korea', 'Angolai', 'Puola', 'Päiväntasaajan Guinea',
         'Qatar',
         'Ranska', 'Romania', 'Ruanda', 'Ruotsi',
         'Saint Kitts ja Nevis', 'Saint Lucia', 'Saint Vincent ja Grenadiinit', 'Saksa', 'Salomonsaaret', 'Sambia', 'Samoa', 'San Marino', 'São Tomé ja Príncipe', 'Saudi-Arabia', 'Senegal', 'Serbia', 'Seychellit', 'Sierra Leone', 'Singapore', 'Slovakia', 'Somalia', 'Sri Lanka', 'Sudan', 'Suomi', 'Suriname', 'Swazimaa', 'Sveitsi', 'Syyria',

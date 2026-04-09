@@ -51,7 +51,7 @@ class Address extends \Faker\Provider\Address
         'Italija', 'Jamajka', 'Jordan', 'Japan', 'Sjeverna Koreja', 'Južna Koreja', 'Kuvajt', 'Kazahstan',
         'Lihtenštajn', 'Šri Lanka', 'Luksemburg', 'Libija', 'Maroko', 'Moldavija', 'Makedonija', 'Mali', 'Malta',
         'Meksiko', 'Malezija', 'Mozambik', 'Namibija', 'Nigerija', 'Nikaragva', 'Nizozemska', 'Norveška', 'Nepal',
-        'Novi Zeland', 'Oman', 'Panama', 'Peru', 'Pakistan', 'Poljska', 'Portugal', 'Paragvaj', 'Katar', 'Rumunjska',
+        'Novi Zeland', 'Oman', 'Panama', 'Peru', 'Pakistan', 'Poljska', 'Angola', 'Paragvaj', 'Katar', 'Rumunjska',
         'Rusija', 'Saudijska Arabija', 'Švedska', 'Singapur', 'Slovenija', 'Slovačka', 'San Marino', 'Senegal',
         'Tajland', 'Turska', 'Trinidad i Tobago', 'Ukrajina', 'Sjedinjene Američke Države', 'Urugvaj', 'Uzbekistan',
     ];

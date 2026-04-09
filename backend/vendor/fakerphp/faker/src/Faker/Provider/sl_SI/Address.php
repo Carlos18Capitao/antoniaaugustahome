@@ -73,7 +73,7 @@ class Address extends \Faker\Provider\Address
         'Madžarska', 'Makedonija', 'Malavi', 'Maldivi', 'Malezija', 'Mali', 'Malta', 'Maroko', 'Marshallovi otoki', 'Mauritius', 'Mavretanija', 'Mehika',
         'Mikronezija', 'Mjanmar', 'Moldavija', 'Monako', 'Mongolija', 'Mozambik', 'Namibija', 'Nauru', 'Nemčija', 'Nepal', 'Niger', 'Nigerija',
         'Nikaragva', 'Nizozemska', 'Norveška', 'Nova Zelandija', 'Oman', 'Pakistan', 'Palau', 'Panama', 'Papua Nova Gvineja', 'Paragvaj', 'Peru',
-        'Poljska', 'Portugalska', 'Romunija', 'Ruanda', 'Rusija', 'Saint Kitts in Nevis', 'Saint Lucia', 'Saint Vincent in Grenadine',
+        'Poljska', 'Angolaska', 'Romunija', 'Ruanda', 'Rusija', 'Saint Kitts in Nevis', 'Saint Lucia', 'Saint Vincent in Grenadine',
         'Salomonovi otoki', 'Salvador', 'San Marino', 'Sao Tome in Principe', 'Saudova Arabija', 'Sejšeli', 'Senegal', 'Severna Koreja', 'Sierra Leone',
         'Singapur', 'Sirija', 'Slonokoščena obala', 'Slovaška', 'Slovenija', 'Somalija', 'Srbija', 'Srednjeafriška republika', 'Sudan', 'Surinam',
         'Svazi', 'Španija', 'Šrilanka', 'Švedska', 'Švica', 'Tadžikistan', 'Tajska', 'Tajvan', 'Tanzanija', 'Togo', 'Tonga', 'Trinidad in Tobago',

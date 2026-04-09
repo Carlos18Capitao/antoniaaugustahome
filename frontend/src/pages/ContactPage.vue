@@ -39,7 +39,7 @@
                 </div>
                 <div class="form-group">
                   <label for="phone">Telefone</label>
-                  <input id="phone" v-model="form.phone" type="tel" placeholder="+351 XXX XXX XXX" />
+                  <input id="phone" v-model="form.phone" type="tel" placeholder="+244 941 708 763" />
                   <span class="form-error" v-if="errors.phone">{{ errors.phone[0] }}</span>
                 </div>
               </div>
@@ -79,11 +79,11 @@
               <h3>Showroom</h3>
               <div class="contact-info__item">
                 <strong>Morada</strong>
-                <p>Rua Example, 123<br>1000-001 Lisboa, Portugal</p>
+                <p>Rua Example, 123<br>1000-001 Luanda, Angola</p>
               </div>
               <div class="contact-info__item">
                 <strong>Telefone</strong>
-                <p>+351 XXX XXX XXX</p>
+                <p>+244 941 708 763</p>
               </div>
               <div class="contact-info__item">
                 <strong>Email</strong>

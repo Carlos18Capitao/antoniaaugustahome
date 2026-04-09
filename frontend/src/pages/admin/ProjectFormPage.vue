@@ -18,7 +18,7 @@
               <div class="form-row">
                 <div class="form-group">
                   <label>Localização</label>
-                  <input v-model="form.location" type="text" placeholder="Ex: Lisboa, Portugal" />
+                  <input v-model="form.location" type="text" placeholder="Ex: Luanda, Angola" />
                 </div>
                 <div class="form-group">
                   <label>Cliente</label>

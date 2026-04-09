@@ -39,7 +39,7 @@ class Address extends \Faker\Provider\Address
         'Naujoji Kaledonija', 'Naujoji Zelandija', 'Nauru', 'Nepalas', 'Nežinoma ar neteisinga sritis', 'Nigerija',
         'Nigeris', 'Nikaragva', 'Niue', 'Norfolko sala', 'Norvegija', 'Nyderlandai', 'Olandijos Antilai', 'Omanas',
         'Pakistanas', 'Palau', 'Palestinos teritorija', 'Panama', 'Papua Naujoji Gvinėja', 'Paragvajus', 'Peru', 'Pietų
-    Afrika', 'Pietų Džordžija ir Pietų Sandvičo salos', 'Pietų Korėja', 'Pitkernas', 'Portugalija', 'Prancūzija',
+    Afrika', 'Pietų Džordžija ir Pietų Sandvičo salos', 'Pietų Korėja', 'Pitkernas', 'Angolaija', 'Prancūzija',
         'Prancūzijos Gviana', 'Prancūzijos Pietų sritys', 'Prancūzų Polinezija', 'Puerto Rikas', 'Pusiaujo Gvinėja',
         'Reunionas', 'Ruanda', 'Rumunija', 'Rusijos Federacija', 'Rytų Timoras', 'Saint-Martin', 'Saliamono salos',
         'Salvadoras', 'Samoa', 'San Marinas', 'San Tomė ir Principė', 'Saudo Arabija', 'Seišeliai', 'Sen Pjeras ir

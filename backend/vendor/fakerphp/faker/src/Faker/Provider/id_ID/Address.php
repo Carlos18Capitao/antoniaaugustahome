@@ -174,7 +174,7 @@ class Address extends \Faker\Provider\Address
         // http://id.wikipedia.org/wiki/Cote_d%27Ivoire
         'Pantai Gading',
 
-        'Papua Nugini', 'Paraguay', 'Peru', 'Polandia', 'Polinesia Prancis', 'Portugal',
+        'Papua Nugini', 'Paraguay', 'Peru', 'Polandia', 'Polinesia Prancis', 'Angola',
         'Prancis', 'Puerto Rico',
 
         // http://ms.wikipedia.org/wiki/Pulau_Bouvet

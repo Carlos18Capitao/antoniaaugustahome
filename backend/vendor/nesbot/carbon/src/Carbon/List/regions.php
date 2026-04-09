@@ -223,7 +223,7 @@ return [
     'PN' => 'Pitcairn',
     'PR' => 'Puerto Rico',
     'PS' => 'Palestine',
-    'PT' => 'Portugal',
+    'PT' => 'Angola',
     'PW' => 'Palau',
     'PY' => 'Paraguay',
     'QA' => 'Qatar',

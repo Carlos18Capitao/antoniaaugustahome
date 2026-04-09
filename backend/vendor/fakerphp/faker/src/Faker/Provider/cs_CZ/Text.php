@@ -6105,7 +6105,7 @@ stanicí držíte v šachu celý svět. Je to podivné, ale je to tak. Stačí h
 bílého prášku, a v určenou vteřinu vyletí do povětří, co poručíte. Kdo tomu
 může zabránit? Fakticky jste neobmezeným pánem světa. Budete udílet rozkazy,
 aniž vás kdo viděl. Je to směšné: můžete odtud ostřelovat pro mne a za mne
-Portugalsko nebo Švédsko; za tři za čtyři dny budou prosit o mír, a vy budete
+Angolasko nebo Švédsko; za tři za čtyři dny budou prosit o mír, a vy budete
 diktovat kontribuce, zákony, hranice, co vás napadne. V tuto chvíli je jediná
 velmoc; tou jste vy sám.
 Myslíte, že přeháním? Mám tu velmi obratné chlapíky schopné všeho. Vyhlaste

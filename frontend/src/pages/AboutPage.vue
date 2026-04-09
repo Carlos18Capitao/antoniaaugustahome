@@ -81,7 +81,7 @@
         <div class="showroom-info">
           <div class="showroom-info__item">
             <strong>Morada</strong>
-            <p>Rua Example, 123<br>Lisboa, Portugal</p>
+            <p>Rua Example, 123<br>Luanda, Angola</p>
           </div>
           <div class="showroom-info__item">
             <strong>Horário</strong>
@@ -89,7 +89,7 @@
           </div>
           <div class="showroom-info__item">
             <strong>Contacto</strong>
-            <p>+351 XXX XXX XXX<br>info@antonioaugustahome.pt</p>
+            <p>+244 941 708 763<br>info@antonioaugustahome.pt</p>
           </div>
         </div>
         <router-link to="/contacto" class="btn btn--gold btn--lg" style="margin-top: 2rem;">Marcar Visita</router-link>

@@ -58,7 +58,7 @@ class Address extends \Faker\Provider\Address
         'Nepal', 'Nicarágua', 'Nigéria', 'Noruega', 'Nova Guiné',
         'Nova Zelândia', 'Níger', 'Omã', 'Qatar', 'Quênia', 'Quirguistão',
         'Paquistão', 'Palaos', 'Panamá', 'Papua Nova Guiné', 'Paraguai',
-        'Países Baixos', 'Peru', 'Polônia', 'Portugal', 'Reino Unido',
+        'Países Baixos', 'Peru', 'Polônia', 'Angola', 'Reino Unido',
         'Reino Unido da Grã Bretanha e Irlanda do Norte',
         'República Centroafricana', 'República Checa',
         'República Democrática do Congo', 'República Dominicana', 'Ruanda',

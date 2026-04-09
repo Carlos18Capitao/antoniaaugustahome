@@ -15,7 +15,7 @@
 <script setup>
 import { computed } from 'vue'
 
-const phoneNumber = '351XXXXXXXXX'
+const phoneNumber = '244941708763'
 const message = 'Olá! Gostaria de saber mais sobre os vossos produtos.'
 
 const whatsappUrl = computed(() => {

@@ -50,9 +50,9 @@ class DatabaseSeeder extends Seeder
 
         // Sample Projects
         $projects = [
-            ['title' => 'Penthouse Vista Mar', 'description' => 'Projeto completo de decoração para penthouse de 300m² com vista oceano. Tons neutros, materiais nobres e peças exclusivas criam um ambiente de serenidade luxuosa.', 'location' => 'Lisboa, Portugal', 'is_featured' => true, 'completed_at' => '2024-06-15'],
-            ['title' => 'Villa Contemporânea', 'description' => 'Decoração integral de villa moderna no Algarve. Fusão perfeita entre interior e exterior, com materiais naturais e design biofílico.', 'location' => 'Algarve, Portugal', 'is_featured' => true, 'completed_at' => '2024-03-20'],
-            ['title' => 'Apartamento Chiado', 'description' => 'Renovação e decoração de apartamento histórico no coração de Lisboa. Respeito pela arquitetura original com toques de modernidade.', 'location' => 'Lisboa, Portugal', 'is_featured' => true, 'completed_at' => '2024-01-10'],
+            ['title' => 'Penthouse Vista Mar', 'description' => 'Projeto completo de decoração para penthouse de 300m² com vista oceano. Tons neutros, materiais nobres e peças exclusivas criam um ambiente de serenidade luxuosa.', 'location' => 'Luanda, Angola', 'is_featured' => true, 'completed_at' => '2024-06-15'],
+            ['title' => 'Villa Contemporânea', 'description' => 'Decoração integral de villa moderna no Algarve. Fusão perfeita entre interior e exterior, com materiais naturais e design biofílico.', 'location' => 'Algarve, Angola', 'is_featured' => true, 'completed_at' => '2024-03-20'],
+            ['title' => 'Apartamento Chiado', 'description' => 'Renovação e decoração de apartamento histórico no coração de Luanda. Respeito pela arquitetura original com toques de modernidade.', 'location' => 'Luanda, Angola', 'is_featured' => true, 'completed_at' => '2024-01-10'],
         ];
 
         foreach ($projects as $proj) {

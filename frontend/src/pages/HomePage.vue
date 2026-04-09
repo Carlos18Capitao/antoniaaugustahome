@@ -143,7 +143,7 @@ const featuredProducts = computed(() => productStore.featuredProducts)
 const featuredProjects = computed(() => projectStore.featuredProjects)
 
 const whatsappUrl = computed(() => {
-  return `https://wa.me/351XXXXXXXXX?text=${encodeURIComponent('Olá! Gostaria de saber mais sobre os vossos produtos.')}`
+  return `https://wa.me/244941708763?text=${encodeURIComponent('Olá! Gostaria de saber mais sobre os vossos produtos.')}`
 })
 
 onMounted(async () => {

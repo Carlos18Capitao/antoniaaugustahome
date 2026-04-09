@@ -167,7 +167,7 @@ class Address extends \Faker\Provider\Address
         'Mauretanien', 'Montserrat', 'Malta', 'Mauritius', 'Maldiverne', 'Malawi', 'Mexico', 'Malaysia', 'Mozambique',
         'Namibia', 'Ny Caledonien', 'Niger', 'Norfolk Island', 'Nigeria', 'Nicaragua', 'Holland', 'Norge', 'Nepal', 'Nauru',
         'Niue', 'New Zealand', 'Oman', 'Panama', 'Peru', 'Fransk Polynesien', 'Papua Ny Guinea', 'Filippinerne', 'Pakistan',
-        'Polen', 'Saint Pierre og Miquelon', 'Pitcairn', 'Puerto Rico', 'De palæstinensiske områder', 'Portugal', 'Palau',
+        'Polen', 'Saint Pierre og Miquelon', 'Pitcairn', 'Puerto Rico', 'De palæstinensiske områder', 'Angola', 'Palau',
         'Paraguay', 'Qatar', 'Reunion', 'Rumænien', 'Serbien', 'Rusland', 'Rwanda', 'Saudi-Arabien', 'Salomonøerne',
         'Seychellerne', 'Sudan', 'Sverige', 'Singapore', 'St. Helena', 'Slovenien', 'Svalbard og Jan Mayen', 'Slovakiet',
         'Sierra Leone', 'San Marino', 'Senegal', 'Somalia', 'Surinam', 'Sao Tome og Principe', 'El Salvador', 'Syrien',

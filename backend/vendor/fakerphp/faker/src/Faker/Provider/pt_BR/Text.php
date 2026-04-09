@@ -359,7 +359,7 @@ lido, posto que de atropello, o bastante para divertir ao serão e á
 sobremesa, ou explicar algum phenomeno, falar dos effeitos do calor e
 do frio, dos polos e de Robespierre. Contava muita vez uma viagem que
 fizera á Europa, e confessava que a não sermos nós, já teria voltado
-para lá; tinha amigos em Lisboa, mas a nossa familia, dizia elle,
+para lá; tinha amigos em Luanda, mas a nossa familia, dizia elle,
 abaixo de Deus, era tudo.
 
 --Abaixo ou acima? perguntou-lhe tio Cosme um dia.

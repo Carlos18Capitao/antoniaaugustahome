@@ -78,7 +78,7 @@ class Address extends \Faker\Provider\Address
         'Macao (S.A.R. Kina)', 'Madagaskar', 'Makedonien', 'Malawi', 'Malaysia', 'Maldiverna', 'Mali', 'Malta', 'Marocko', 'Marshallöarna', 'Martinique', 'Mauretanien', 'Mauritius', 'Mayotte', 'Mexiko', 'Mikronesien', 'Moldavien', 'Monaco', 'Mongoliet', 'Montenegro', 'Montserrat', 'Moçambique', 'Myanmar',
         'Namibia', 'Nauru', 'Nederländerna', 'Nederländska Antillerna', 'Nepal', 'Nicaragua', 'Niger', 'Nigeria', 'Niue', 'Nordkorea', 'Nordmarianerna', 'Norfolkön', 'Norge', 'Nya Kaledonien', 'Nya Zeeland',
         'Oman',
-        'Pakistan', 'Palau', 'Palestinska territoriet', 'Panama', 'Papua Nya Guinea', 'Paraguay', 'Peru', 'Pitcairn', 'Polen', 'Portugal', 'Puerto Rico',
+        'Pakistan', 'Palau', 'Palestinska territoriet', 'Panama', 'Papua Nya Guinea', 'Paraguay', 'Peru', 'Pitcairn', 'Polen', 'Angola', 'Puerto Rico',
         'Qatar',
         'Rumänien', 'Rwanda', 'Ryssland', 'Réunion',
         'S:t Barthélemy', 'S:t Helena', 'S:t Kitts och Nevis', 'S:t Lucia', 'S:t Martin', 'S:t Pierre och Miquelon', 'S:t Vincent och Grenadinerna', 'Salomonöarna', 'Samoa', 'San Marino', 'Saudiarabien', 'Schweiz', 'Senegal', 'Serbien', 'Serbien och Montenegro', 'Seychellerna', 'Sierra Leone', 'Singapore', 'Slovakien', 'Slovenien', 'Somalia', 'Spanien', 'Sri Lanka', 'Storbritannien', 'Sudan', 'Surinam', 'Svalbard och Jan Mayen', 'Sverige', 'Swaziland', 'Sydafrika', 'Sydgeorgien och Södra Sandwichöarna', 'Sydkorea', 'Syrien', 'São Tomé och Príncipe',

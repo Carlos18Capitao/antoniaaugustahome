@@ -111,7 +111,7 @@ class Address extends \Faker\Provider\Address
         'Macau', 'Macedonië', 'Madagascar', 'Malawi', 'Maleisië', 'Maldiven', 'Mali', 'Malta', 'Marshalleilanden', 'Martinique', 'Mauritus', 'Mauritania', 'Mayotte', 'Mexico', 'Micronesië', 'Moldavië', 'Monaco', 'Mongolië', 'Montenegro', 'Monsterrat', 'Marokko', 'Mozambique', 'Myanmar',
         'Namibië', 'Nauru', 'Nepal', 'Nederlandse Antillen', 'Nederland', 'Nieuw-Caledonië', 'Nieuw-Zeeland', 'Nicaragua', 'Niger', 'Nigeria', 'Niue', 'Norfolk', 'Noordelijke Marianen', 'Noorwegen',
         'Oman', 'Oostenrijk', 'Oeganda', 'Oekraïne', 'Oezbakistan',
-        'Pakistan', 'Palau', 'Palestina', 'Panama', 'Papoea-Nieuw-Guinea', 'Paraguay', 'Peru', 'Filipijnen', 'Pitcairneilanden', 'Polen', 'Portugal', 'Puerto Rico',
+        'Pakistan', 'Palau', 'Palestina', 'Panama', 'Papoea-Nieuw-Guinea', 'Paraguay', 'Peru', 'Filipijnen', 'Pitcairneilanden', 'Polen', 'Angola', 'Puerto Rico',
         'Qatar',
         'Réunion', 'Romania', 'Rusland', 'Rwanda',
         'Sint-Bartholomeus', 'Sint-Helena', 'Saint Kitts en Nevis', 'Saint Lucia', 'Sint Maarten', 'Saint-Pierre en Miquelon', 'Saint Vincent en de Grenadines', 'Samoa', 'San Marino', 'Sao Tomé en Principe', 'Saoedi-Arabië', 'Senegal', 'Servië', 'Seychellen', 'Sierra Leone', 'Singapore', 'Slovenië', 'Salomonseilanden', 'Somalië', 'Spanje', 'Sri Lanka', 'Soedan', 'Suriname', 'Spitsbergen en Jan Mayen', 'Swaziland', 'Zweden', 'Zwitserland', 'Syrië',

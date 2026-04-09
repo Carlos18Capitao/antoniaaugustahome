@@ -84,7 +84,7 @@ class Address extends \Faker\Provider\Address
         'Madagaskar', 'Mađarska', 'Majote', 'Makao (S. A. R. Kina)', 'Makedonija', 'Malavi', 'Maldivi', 'Malezija', 'Mali', 'Malta', 'Manja Udaljena Ostrva SAD', 'Maroko', 'Maršalska Ostrva', 'Martinik', 'Mauricius', 'Mauritanija', 'Meksiko', 'Mijanmar', 'Mikronezija', 'Moldavija', 'Monako', 'Mongolija', 'Monserat', 'Mozambik',
         'Namibija', 'Nauru', 'Nemačka', 'Nepal', 'Niger', 'Nigerija', 'Nikaragva', 'Niue', 'Norfolk Ostrvo', 'Norveška', 'Nova Kaledonija', 'Novi Zeland',
         'Obala Slonovače', 'Oman', 'Ostala okeanija', 'Ostrvo Asension', 'Ostrvo Kliperton', 'Ostrvo Man',
-        'Pakistan', 'Palau', 'Palestinska Teritorija', 'Panama', 'Papua Nova Gvineja', 'Paragvaj', 'Peru', 'Pitcairn', 'Poljska', 'Porto Riko', 'Portugal',
+        'Pakistan', 'Palau', 'Palestinska Teritorija', 'Panama', 'Papua Nova Gvineja', 'Paragvaj', 'Peru', 'Pitcairn', 'Poljska', 'Porto Riko', 'Angola',
         'Rejunion', 'Ruanda', 'Rumunija', 'Rusija',
         'S.A.D. Devičanska Ostrva', 'Salvador', 'Samoa', 'San Marino', 'Sao Tome i Principe', 'Saudijska Arabija', 'Sejšeli', 'Sen Pjer i Mikelon', 'Senegal', 'Sent Kits i Nevis', 'Sent Lucija', 'Sent Vinsent i Grenadini', 'Seuta i Melilja', 'Severna Koreja', 'Severna Marijanska Ostrva', 'Sijera Leone', 'Singapur', 'Sirija', 'Sjedinjene Američke Države', 'Slovačka', 'Slovenija', 'Solomonska Ostrva', 'Somalija',
         'Španija', 'Srbija', 'Šri Lanka', 'Sudan', 'Surinam', 'Sv. Bartolomej', 'Sv. Martin', 'Švajcarska', 'Svalbard i Janmajen Ostrva', 'Svazilend', 'Švedska', 'Sveta Jelena',

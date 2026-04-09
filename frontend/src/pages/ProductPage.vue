@@ -147,7 +147,7 @@ const activeImage = computed(() => {
 
 const whatsappUrl = computed(() => {
   const msg = `Olá! Estou interessado(a) no produto: ${product.value?.name}`
-  return `https://wa.me/351XXXXXXXXX?text=${encodeURIComponent(msg)}`
+  return `https://wa.me/244941708763?text=${encodeURIComponent(msg)}`
 })
 
 async function loadProduct() {

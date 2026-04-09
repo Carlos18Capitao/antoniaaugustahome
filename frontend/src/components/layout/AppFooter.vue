@@ -25,9 +25,9 @@
 
           <div class="footer__col">
             <h4>Contacto</h4>
-            <a href="tel:+351XXXXXXXXX">+351 XXX XXX XXX</a>
+            <a href="tel:+244941708763">+244 941 708 763</a>
             <a href="mailto:contato@antonioaugustahome.pt">contato@antonioaugustahome.pt</a>
-            <p>Lisboa, Portugal</p>
+            <p>Luanda, Angola</p>
           </div>
 
           <div class="footer__col">

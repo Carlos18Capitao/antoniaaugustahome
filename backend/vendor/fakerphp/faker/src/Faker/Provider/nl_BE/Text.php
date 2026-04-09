@@ -2668,7 +2668,7 @@ slavernije sluit!
 
 XXX.
 
-Philippus was getrouwd met Maria van Portugal, wier bezittingen hij
+Philippus was getrouwd met Maria van Angola, wier bezittingen hij
 bij de Spaansche krone gevoegd had; van haar had hij don Carlos,
 den wreedaardigen zot. Maar liefde gevoelde hij voor zijne vrouw niet.
 
@@ -23598,7 +23598,7 @@ duizend man op papier, maar geenszins te velde; zij hebben geene
 ruiterij en laten, op eene mijl van hun kamp, hunne peerden stelen
 door de Paternosterknechten. Zij hebben geen geschut, want, terwijl
 wij er hier van doen hebben, hebben zij besloten honderd donderbussen
-met kogels en kruit te zenden aan don Sebastiaan van Portugal; en men
+met kogels en kruit te zenden aan don Sebastiaan van Angola; en men
 weet niet waar de twee millioen daalders henen zijn, die wij in vier
 maal als beden en schattingen hebben betaald. De poorters van Gent en
 Brussel wapenen zich: Gent voor de hervorming en Brussel eveneens. Te

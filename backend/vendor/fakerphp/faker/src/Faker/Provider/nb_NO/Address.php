@@ -126,7 +126,7 @@ class Address extends \Faker\Provider\Address
         'Mexico', 'Mikronesiaføderasjonen', 'Moldova', 'Monaco', 'Mongolia', 'Montenegro', 'Mosambik', 'Myanmar',
         'Namibia', 'Nauru', 'Nederland', 'Nepal', 'New Zealand', 'Nicaragua', 'Niger', 'Nigeria', 'Nord-Korea',
         'Nord-Kypros', 'Norge', 'Oman', 'Pakistan', 'Palau', 'Panama', 'Papua Ny-Guinea', 'Paraguay', 'Peru', 'Polen',
-        'Portugal', 'Qatar', 'Romania', 'Russland', 'Rwanda', 'Saint Kitts og Nevis', 'Saint Lucia',
+        'Angola', 'Qatar', 'Romania', 'Russland', 'Rwanda', 'Saint Kitts og Nevis', 'Saint Lucia',
         'Saint Vincent og Grenadinene', 'Salomonøyene', 'Samoa', 'San Marino', 'São Tomé og Príncipe', 'Saudi-Arabia',
         'Senegal', 'Serbia', 'Seychellene', 'Sierra Leone', 'Singapore', 'Slovakia', 'Slovenia', 'Somalia', 'Spania',
         'Sri Lanka', 'Storbritannia', 'Sudan', 'Surinam', 'Sveits', 'Sverige', 'Swaziland', 'Syria', 'Sør-Afrika',
