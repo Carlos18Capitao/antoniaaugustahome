@@ -139,7 +139,9 @@ onMounted(async () => {
 
 .page-hero {
   padding: calc(#{$header-height} + #{$space-4xl}) 0 $space-3xl;
-  background: $color-dark;
+  background: url('/storage/site/saladeestar.jpg') center/cover no-repeat;
+  background-color: rgba($color-dark, 0.5);
+  background-blend-mode: multiply;
   text-align: center;
 
   &__subtitle {
@@ -152,14 +154,14 @@ onMounted(async () => {
     display: block;
     margin-bottom: $space-md;
   }
-
+  
   &__title {
     font-family: $font-serif;
     font-size: $font-size-5xl;
     color: $color-ivory;
     margin-bottom: $space-md;
   }
-
+  
   &__text {
     color: $color-sand;
     font-size: $font-size-lg;
