@@ -50,7 +50,7 @@
                   <input v-model="form.colors" type="text" placeholder="Ex: Natural, Nogueira" />
                 </div>
                 <div class="form-group">
-                  <label>Preço (€)</label>
+                  <label>Preço (Kz)</label>
                   <input v-model="form.price" type="number" step="0.01" min="0" placeholder="0.00" />
                 </div>
               </div>
