@@ -98,9 +98,7 @@
             <div class="contact-info__social">
               <h4>Siga-nos</h4>
               <div class="contact-info__links">
-                <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
-                <a href="#" target="_blank" rel="noopener noreferrer">Pinterest</a>
-                <a href="#" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="https://www.instagram.com/antonioaugustahome?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener noreferrer">Instagram</a>
               </div>
             </div>
           </div>
