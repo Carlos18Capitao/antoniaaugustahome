@@ -75,6 +75,21 @@ services:
     networks:
       - aa_network
 
+  # phpMyAdmin
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: aa_phpmyadmin
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: aa_user
+      PMA_PASSWORD: aa_secret
+    depends_on:
+      - mysql
+    networks:
+      - aa_network
+
 networks:
   aa_network:
     driver: bridge
