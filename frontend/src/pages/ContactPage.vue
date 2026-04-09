@@ -120,7 +120,7 @@ const form = reactive({
   phone: '',
   subject: '',
   message: '',
-  source: 'website',
+  source: 'contact_form',
 })
 
 const errors = ref({})

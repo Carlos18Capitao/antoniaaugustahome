@@ -40,6 +40,7 @@ export const adminApi = {
   products: {
     list: (params = {}) => api.get('/admin/products', { params }),
     show: (id) => api.get(`/admin/products/${id}`),
+    get: (id) => api.get(`/admin/products/${id}`),
     create: (data) => api.post('/admin/products', data),
     update: (id, data) => api.put(`/admin/products/${id}`, data),
     delete: (id) => api.delete(`/admin/products/${id}`),
@@ -67,6 +68,7 @@ export const adminApi = {
   projects: {
     list: (params = {}) => api.get('/admin/projects', { params }),
     show: (id) => api.get(`/admin/projects/${id}`),
+    get: (id) => api.get(`/admin/projects/${id}`),
     create: (data) => api.post('/admin/projects', data),
     update: (id, data) => api.put(`/admin/projects/${id}`, data),
     delete: (id) => api.delete(`/admin/projects/${id}`),
@@ -83,4 +85,13 @@ export const adminApi = {
     updateStatus: (id, data) => api.put(`/admin/leads/${id}/status`, data),
     delete: (id) => api.delete(`/admin/leads/${id}`),
   },
+}
+
+export default {
+  products: productApi,
+  categories: categoryApi,
+  projects: projectApi,
+  contact: contactApi,
+  pageViews: pageViewApi,
+  admin: adminApi,
 }
