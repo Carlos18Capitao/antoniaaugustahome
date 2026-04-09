@@ -165,7 +165,7 @@ onMounted(async () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: $color-dark;
+  background: $color-dark url('/storage/site/saladeestar.jpg') center/cover no-repeat;
   overflow: hidden;
 
   &__overlay {
