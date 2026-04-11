@@ -36,6 +36,12 @@
             <p>Sábado: 10h - 14h</p>
             <p>Domingo: Fechado</p>
           </div>
+
+          <div class="footer__col">
+            <h4>Legal</h4>
+            <router-link to="/politica-privacidade">Política de Privacidade</router-link>
+            <router-link to="/termos-servico">Termos de Serviço</router-link>
+          </div>
         </div>
       </div>
 
@@ -102,7 +108,7 @@ const currentYear = new Date().getFullYear()
 
   &__links {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: $space-2xl;
 
     @media (max-width: $breakpoint-sm) {

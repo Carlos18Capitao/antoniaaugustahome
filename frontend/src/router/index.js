@@ -48,6 +48,18 @@ const routes = [
     component: () => import('@/pages/ContactPage.vue'),
     meta: { title: 'Contacto — Antônio Augusta Home' },
   },
+  {
+    path: '/politica-privacidade',
+    name: 'privacy-policy',
+    component: () => import('@/pages/PrivacyPolicyPage.vue'),
+    meta: { title: 'Política de Privacidade — Antônio Augusta Home' },
+  },
+  {
+    path: '/termos-servico',
+    name: 'terms-of-service',
+    component: () => import('@/pages/TermsOfServicePage.vue'),
+    meta: { title: 'Termos de Serviço — Antônio Augusta Home' },
+  },
 
   // ===== ADMIN =====
   {

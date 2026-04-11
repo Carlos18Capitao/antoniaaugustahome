@@ -10,6 +10,7 @@
     </main>
     <AppFooter v-if="!isAdminRoute" />
     <WhatsAppButton v-if="!isAdminRoute" />
+    <CookieConsent v-if="!isAdminRoute" />
   </div>
 </template>
 
@@ -19,6 +20,7 @@ import { useRoute } from 'vue-router'
 import AppHeader from '@/components/layout/AppHeader.vue'
 import AppFooter from '@/components/layout/AppFooter.vue'
 import WhatsAppButton from '@/components/ui/WhatsAppButton.vue'
+import CookieConsent from '@/components/ui/CookieConsent.vue'
 
 const route = useRoute()
 const isAdminRoute = computed(() => route.path.startsWith('/admin'))
