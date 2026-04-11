@@ -1,3 +1,4 @@
+import axios from 'axios'
 import api from './axios'
 
 export const productApi = {
@@ -28,7 +29,10 @@ export const pageViewApi = {
 
 // Admin APIs
 export const adminApi = {
-  login: (credentials) => api.post('/admin/login', credentials),
+  login: async (credentials) => {
+    await axios.get('/sanctum/csrf-cookie', { withCredentials: true })
+    return api.post('/admin/login', credentials)
+  },
   logout: () => api.post('/admin/logout'),
   me: () => api.get('/admin/me'),
 

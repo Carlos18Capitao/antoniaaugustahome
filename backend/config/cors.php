@@ -3,7 +3,7 @@
 return [
     'paths' => ['api/*'],
     'allowed_methods' => ['*'],
-    'allowed_origins' => [env('FRONTEND_URL', 'http://localhost:5173'), 'http://localhost'],
+    'allowed_origins' => [env('FRONTEND_URL', 'http://localhost:5173'), 'http://localhost', 'http://localhost:82'],
     'allowed_origins_patterns' => [],
     'allowed_headers' => ['*'],
     'exposed_headers' => [],

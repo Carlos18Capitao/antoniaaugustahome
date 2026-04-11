@@ -7,7 +7,6 @@ use App\Models\Category;
 use App\Models\Product;
 use App\Models\Project;
 use Illuminate\Database\Seeder;
-use Illuminate\Support\Facades\Hash;
 
 class DatabaseSeeder extends Seeder
 {
@@ -15,9 +14,9 @@ class DatabaseSeeder extends Seeder
     {
         // Admin User
         User::create([
-            'name' => 'Admin',
+            'name' => 'Faustino',
             'email' => 'admin@antonioaugustahome.pt',
-            'password' => Hash::make('password'),
+            'password' => 'password',
         ]);
 
         // Categories
