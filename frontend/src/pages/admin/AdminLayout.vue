@@ -127,7 +127,7 @@ async function logout() {
   &__user { font-size: $font-size-sm; color: $color-charcoal; }
 }
 
-.admin-content { padding: $space-2xl; }
+.admin-content { max-width: 1200px; margin: 0 auto; padding: $space-2xl; }
 
 .admin-overlay {
   display: none;
