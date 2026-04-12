@@ -24,9 +24,7 @@
       <div class="container">
         <div class="intro__grid">
           <div class="intro__image">
-            <div class="intro__image-placeholder">
-              <span>Interior Premium</span>
-            </div>
+            <img src="http://localhost:82/storage/site/intro-image.jpeg" alt="Interior Premium" class="intro__image-photo" />
           </div>
           <div class="intro__content">
             <span class="section-header__subtitle">Sobre Nós</span>
@@ -291,15 +289,15 @@ onMounted(async () => {
     }
   }
 
-  &__image-placeholder {
+  &__image {
     aspect-ratio: 4/5;
-    background: $color-cream;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: $color-taupe;
-    font-family: $font-serif;
-    font-size: $font-size-xl;
+    overflow: hidden;
+  }
+
+  &__image-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
 
   &__content {
