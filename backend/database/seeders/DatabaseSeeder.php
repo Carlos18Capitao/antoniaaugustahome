@@ -5,6 +5,7 @@ namespace Database\Seeders;
 use App\Models\User;
 use App\Models\Category;
 use App\Models\Product;
+use App\Models\ProductImage;
 use App\Models\Project;
 use Illuminate\Database\Seeder;
 
@@ -43,8 +44,50 @@ class DatabaseSeeder extends Seeder
             ['name' => 'Cama King Royal', 'short_description' => 'Noites de realeza', 'description' => 'Cama king-size com cabeceira estofada em tecido premium. Design contemporâneo com acabamentos de luxo.', 'price' => 3890.00, 'category_id' => 5, 'is_featured' => true, 'materials' => 'Tecido Bouclé, Madeira de Freixo', 'dimensions' => '200 x 200 x 130 cm'],
         ];
 
-        foreach ($products as $prod) {
-            Product::create($prod);
+        $productImages = [
+            // Sofá Milano Premium
+            1 => [
+                ['path' => 'https://img.freepik.com/free-photo/modern-luxury-domestic-room-with-comfortable-sofa-design-generated-by-ai_188544-40158.jpg?w=1380', 'alt_text' => 'Sofá Milano Premium - Vista frontal', 'is_primary' => true, 'sort_order' => 1],
+                ['path' => 'https://img.freepik.com/free-photo/interior-design-with-photoframes-sofa_23-2149385437.jpg?w=1380', 'alt_text' => 'Sofá Milano Premium - Ambiente', 'is_primary' => false, 'sort_order' => 2],
+                ['path' => 'https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf-near-bookshelf_105762-2175.jpg?w=1380', 'alt_text' => 'Sofá Milano Premium - Detalhe', 'is_primary' => false, 'sort_order' => 3],
+            ],
+            // Poltrona Versailles
+            2 => [
+                ['path' => 'https://img.freepik.com/free-photo/interior-design-with-armchair-plant_23-2149385449.jpg?w=1380', 'alt_text' => 'Poltrona Versailles - Vista frontal', 'is_primary' => true, 'sort_order' => 1],
+                ['path' => 'https://img.freepik.com/free-photo/scandinavian-living-room-interior-design-zoom-background_53876-143147.jpg?w=1380', 'alt_text' => 'Poltrona Versailles - Ambiente', 'is_primary' => false, 'sort_order' => 2],
+            ],
+            // Mesa de Jantar Carrara
+            3 => [
+                ['path' => 'https://img.freepik.com/free-photo/dining-table-house_1203-1914.jpg?w=1380', 'alt_text' => 'Mesa de Jantar Carrara - Vista superior', 'is_primary' => true, 'sort_order' => 1],
+                ['path' => 'https://img.freepik.com/free-photo/stylish-dining-room-interior-design_23-2151934545.jpg?w=1380', 'alt_text' => 'Mesa de Jantar Carrara - Ambiente', 'is_primary' => false, 'sort_order' => 2],
+                ['path' => 'https://img.freepik.com/free-photo/luxury-dining-room-with-golden-table-marble-floor_1258-177693.jpg?w=1380', 'alt_text' => 'Mesa de Jantar Carrara - Detalhe mármore', 'is_primary' => false, 'sort_order' => 3],
+            ],
+            // Candeeiro Cascata Dourado
+            4 => [
+                ['path' => 'https://img.freepik.com/free-photo/luxury-chandelier-illuminated-modern-home-interior-generated-by-ai_188544-42474.jpg?w=1380', 'alt_text' => 'Candeeiro Cascata Dourado - Vista geral', 'is_primary' => true, 'sort_order' => 1],
+                ['path' => 'https://img.freepik.com/free-photo/golden-luxury-chandelier-vintage-style_181624-41169.jpg?w=1380', 'alt_text' => 'Candeeiro Cascata Dourado - Detalhe cristais', 'is_primary' => false, 'sort_order' => 2],
+            ],
+            // Espelho Art Deco Grand
+            5 => [
+                ['path' => 'https://img.freepik.com/free-photo/decorative-mirror-with-round-shape_23-2149872019.jpg?w=1380', 'alt_text' => 'Espelho Art Deco Grand - Vista frontal', 'is_primary' => true, 'sort_order' => 1],
+                ['path' => 'https://img.freepik.com/free-photo/design-interior-with-frames-mirror_23-2149385466.jpg?w=1380', 'alt_text' => 'Espelho Art Deco Grand - No ambiente', 'is_primary' => false, 'sort_order' => 2],
+            ],
+            // Cama King Royal
+            6 => [
+                ['path' => 'https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv_105762-2167.jpg?w=1380', 'alt_text' => 'Cama King Royal - Vista geral', 'is_primary' => true, 'sort_order' => 1],
+                ['path' => 'https://img.freepik.com/free-photo/luxury-bedroom-hotel_1150-10836.jpg?w=1380', 'alt_text' => 'Cama King Royal - Ambiente quarto', 'is_primary' => false, 'sort_order' => 2],
+                ['path' => 'https://img.freepik.com/free-photo/interior-modern-comfortable-hotel-room_1232-1822.jpg?w=1380', 'alt_text' => 'Cama King Royal - Detalhe cabeceira', 'is_primary' => false, 'sort_order' => 3],
+            ],
+        ];
+
+        foreach ($products as $index => $prod) {
+            $product = Product::create($prod);
+
+            if (isset($productImages[$index + 1])) {
+                foreach ($productImages[$index + 1] as $imageData) {
+                    $product->images()->create($imageData);
+                }
+            }
         }
 
         // Sample Projects

@@ -30,11 +30,23 @@ class ProductImage extends Model
 
     public function getUrlAttribute(): string
     {
+        if (str_starts_with($this->path, 'http://') || str_starts_with($this->path, 'https://')) {
+            return $this->path;
+        }
+
         return asset('storage/' . $this->path);
     }
 
     public function getThumbnailUrlAttribute(): ?string
     {
-        return $this->thumbnail ? asset('storage/' . $this->thumbnail) : $this->url;
+        if (!$this->thumbnail) {
+            return $this->url;
+        }
+
+        if (str_starts_with($this->thumbnail, 'http://') || str_starts_with($this->thumbnail, 'https://')) {
+            return $this->thumbnail;
+        }
+
+        return asset('storage/' . $this->thumbnail);
     }
 }
