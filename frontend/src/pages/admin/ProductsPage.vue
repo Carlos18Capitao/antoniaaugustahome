@@ -83,7 +83,7 @@ async function fetchProducts() {
   try {
     const params = { page: page.value }
     if (search.value) params.search = search.value
-    if (categoryFilter.value) params.category_id = categoryFilter.value
+    if (categoryFilter.value) params.category = categoryFilter.value
     const { data } = await api.admin.products.list(params)
     products.value = data.data
     lastPage.value = data.meta?.last_page || 1
