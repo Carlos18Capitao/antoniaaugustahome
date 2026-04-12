@@ -50,7 +50,13 @@
           <div v-for="product in featuredProducts" :key="product.id" class="product-card">
             <router-link :to="`/catalogo/${product.slug}`" class="product-card__link">
               <div class="product-card__image">
-                <div class="product-card__placeholder">
+                <img
+                  v-if="product.primary_image?.url"
+                  :src="product.primary_image.url"
+                  :alt="product.primary_image.alt_text || product.name"
+                  class="product-card__photo"
+                />
+                <div v-else class="product-card__placeholder">
                   <span>{{ product.name }}</span>
                 </div>
                 <div class="product-card__overlay">
@@ -345,6 +351,13 @@ onMounted(async () => {
     margin-bottom: $space-md;
   }
 
+  &__photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform $transition-elegant;
+  }
+
   &__placeholder {
     width: 100%;
     height: 100%;
@@ -378,7 +391,8 @@ onMounted(async () => {
   }
 
   &:hover {
-    .product-card__placeholder {
+    .product-card__placeholder,
+    .product-card__photo {
       transform: scale(1.05);
     }
 
