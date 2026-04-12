@@ -19,6 +19,8 @@ class ProductImage extends Model
         'sort_order',
     ];
 
+    protected $appends = ['url', 'thumbnail_url'];
+
     protected $casts = [
         'is_primary' => 'boolean',
     ];
