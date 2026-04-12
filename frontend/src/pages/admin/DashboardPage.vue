@@ -5,19 +5,19 @@
     <!-- Stats -->
     <div class="stats-grid" v-if="stats">
       <div class="stat-card">
-        <div class="stat-card__value">{{ stats.products_count ?? 0 }}</div>
+        <div class="stat-card__value">{{ stats.products?.total ?? 0 }}</div>
         <div class="stat-card__label">Produtos</div>
       </div>
       <div class="stat-card">
-        <div class="stat-card__value">{{ stats.projects_count ?? 0 }}</div>
+        <div class="stat-card__value">{{ stats.projects?.total ?? 0 }}</div>
         <div class="stat-card__label">Projetos</div>
       </div>
       <div class="stat-card">
-        <div class="stat-card__value">{{ stats.new_leads_count ?? 0 }}</div>
+        <div class="stat-card__value">{{ stats.leads?.new ?? 0 }}</div>
         <div class="stat-card__label">Novos Leads</div>
       </div>
       <div class="stat-card">
-        <div class="stat-card__value">{{ stats.views_today ?? 0 }}</div>
+        <div class="stat-card__value">{{ stats.views?.today ?? 0 }}</div>
         <div class="stat-card__label">Visitas Hoje</div>
       </div>
     </div>
