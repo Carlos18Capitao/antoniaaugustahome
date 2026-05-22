@@ -139,7 +139,7 @@
 import { onMounted, computed } from 'vue'
 import { useProductStore } from '@/stores/products'
 import { useProjectStore } from '@/stores/projects'
-import introImg from '@/assets/images/intro-image.jpeg'
+import introImg from '@/assets/images/intro-image.webp'
 
 const productStore = useProductStore()
 const projectStore = useProjectStore()
@@ -170,7 +170,7 @@ onMounted(async () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: $color-dark url('@/assets/images/saladeestar.jpg') center/cover no-repeat;
+  background: $color-dark url('@/assets/images/saladeestar.webp') center/cover no-repeat;
   overflow: hidden;
 
   &__overlay {
