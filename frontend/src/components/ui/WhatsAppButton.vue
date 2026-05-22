@@ -24,7 +24,7 @@ const whatsappUrl = computed(() => {
 </script>
 
 <style lang="scss" scoped>
-@import '@/assets/scss/variables';
+@use '@/assets/scss/variables' as *;
 
 .whatsapp-btn {
   position: fixed;

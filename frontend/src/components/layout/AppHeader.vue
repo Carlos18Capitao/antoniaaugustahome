@@ -38,7 +38,7 @@ onUnmounted(() => window.removeEventListener('scroll', handleScroll))
 </script>
 
 <style lang="scss" scoped>
-@import '@/assets/scss/variables';
+@use '@/assets/scss/variables' as *;
 
 .header {
   position: fixed;

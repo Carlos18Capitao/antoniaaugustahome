@@ -113,12 +113,15 @@ onMounted(() => {
   store.fetchProject(route.params.slug)
   document.addEventListener('keydown', onKeydown)
 })
-onUnmounted(() => document.removeEventListener('keydown', onKeydown))
+onUnmounted(() => {
+  document.removeEventListener('keydown', onKeydown)
+  document.body.style.overflow = ''
+})
 watch(() => route.params.slug, (slug) => slug && store.fetchProject(slug))
 </script>
 
 <style lang="scss" scoped>
-@import '@/assets/scss/variables';
+@use '@/assets/scss/variables' as *;
 
 .project-hero {
   position: relative; height: 70vh; min-height: 500px; background: $color-dark;

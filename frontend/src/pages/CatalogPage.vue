@@ -135,7 +135,7 @@ onMounted(async () => {
 </script>
 
 <style lang="scss" scoped>
-@import '@/assets/scss/variables';
+@use '@/assets/scss/variables' as *;
 
 .page-hero {
   padding: calc(#{$header-height} + #{$space-4xl}) 0 $space-3xl;

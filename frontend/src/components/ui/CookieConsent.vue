@@ -45,7 +45,7 @@ function rejectCookies() {
 </script>
 
 <style lang="scss" scoped>
-@import '@/assets/scss/variables';
+@use '@/assets/scss/variables' as *;
 
 .cookie-banner {
   position: fixed;

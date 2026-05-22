@@ -3,6 +3,6 @@
 // Main Stylesheet
 // ========================================
 
-@import 'variables';
-@import 'base';
-@import 'components';
+@use 'variables' as *;
+@use 'base' as *;
+@use 'components' as *;

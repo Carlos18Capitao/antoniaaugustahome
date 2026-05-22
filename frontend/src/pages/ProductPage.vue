@@ -161,7 +161,7 @@ watch(() => route.params.slug, loadProduct)
 </script>
 
 <style lang="scss" scoped>
-@import '@/assets/scss/variables';
+@use '@/assets/scss/variables' as *;
 
 .breadcrumb {
   padding: calc(#{$header-height} + #{$space-lg}) 0 $space-lg;

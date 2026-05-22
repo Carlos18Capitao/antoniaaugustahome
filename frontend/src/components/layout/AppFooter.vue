@@ -57,7 +57,7 @@ const currentYear = new Date().getFullYear()
 </script>
 
 <style lang="scss" scoped>
-@import '@/assets/scss/variables';
+@use '@/assets/scss/variables' as *;
 
 .footer {
   background-color: $color-dark;
