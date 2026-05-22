@@ -8,9 +8,9 @@
       "location": "Luanda, Angola",
       "client_name": null,
       "is_featured": true,
-      "cover_image": null,
+      "cover_image": "data/images/luxury-living.webp",
       "completed_at": "2024-06-15",
-      "images": []
+      "images": ["data/images/luxury-living.webp"]
     },
     {
       "id": 2,
@@ -20,9 +20,9 @@
       "location": "Algarve, Angola",
       "client_name": null,
       "is_featured": true,
-      "cover_image": null,
+      "cover_image": "data/images/luxury-decor.webp",
       "completed_at": "2024-03-20",
-      "images": []
+      "images": ["data/images/luxury-decor.webp"]
     },
     {
       "id": 3,
@@ -32,9 +32,9 @@
       "location": "Luanda, Angola",
       "client_name": null,
       "is_featured": true,
-      "cover_image": null,
+      "cover_image": "data/images/transferir.webp",
       "completed_at": "2024-01-10",
-      "images": []
+      "images": ["data/images/transferir.webp"]
     }
   ]
 }
