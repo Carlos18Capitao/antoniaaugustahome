@@ -96,17 +96,16 @@
         </div>
         <div class="projects-grid">
           <div v-for="project in featuredProjects" :key="project.id" class="project-card">
-            <router-link :to="`/projetos/${project.slug}`" class="project-card__link">
-              <div class="project-card__image">
-                <div class="project-card__placeholder">
-                  <span>{{ project.title }}</span>
-                </div>
-                <div class="project-card__info">
-                  <span class="project-card__location">{{ project.location }}</span>
-                  <h3 class="project-card__title">{{ project.title }}</h3>
-                </div>
+            <div class="project-card__image">
+              <img v-if="project.cover_image" :src="project.cover_image" :alt="project.title" loading="lazy" class="img-cover" />
+              <div v-else class="project-card__placeholder">
+                <span>{{ project.title }}</span>
               </div>
-            </router-link>
+              <div class="project-card__info">
+                <span class="project-card__location">{{ project.location }}</span>
+                <h3 class="project-card__title">{{ project.title }}</h3>
+              </div>
+            </div>
           </div>
         </div>
         <div class="section-cta">

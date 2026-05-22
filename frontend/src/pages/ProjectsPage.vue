@@ -15,21 +15,16 @@
       <div class="container">
         <div class="projects-grid" v-if="projects.length">
           <article v-for="project in projects" :key="project.id" class="project-card" :class="{ 'project-card--featured': project.is_featured }">
-            <router-link :to="`/projetos/${project.slug}`" class="project-card__link">
-              <div class="project-card__image">
-                <img v-if="project.cover_image" :src="project.cover_image" :alt="project.title" loading="lazy" class="img-cover" />
-                <div v-else class="project-card__placeholder">
-                  <span>{{ project.title }}</span>
-                </div>
-                <div class="project-card__overlay">
-                  <span class="project-card__cta">Ver Projeto</span>
-                </div>
+            <div class="project-card__image">
+              <img v-if="project.cover_image" :src="project.cover_image" :alt="project.title" loading="lazy" class="img-cover" />
+              <div v-else class="project-card__placeholder">
+                <span>{{ project.title }}</span>
               </div>
-              <div class="project-card__info">
-                <h2 class="project-card__title">{{ project.title }}</h2>
-                <p class="project-card__location" v-if="project.location">{{ project.location }}</p>
-              </div>
-            </router-link>
+            </div>
+            <div class="project-card__info">
+              <h2 class="project-card__title">{{ project.title }}</h2>
+              <p class="project-card__location" v-if="project.location">{{ project.location }}</p>
+            </div>
           </article>
         </div>
 
@@ -93,35 +88,17 @@ onMounted(() => store.fetchProjects())
 .project-card {
   &--featured { grid-column: span 2; @media (max-width: $breakpoint-sm) { grid-column: span 1; } }
 
-  &__link { display: block; text-decoration: none; color: inherit; }
-
   &__image {
     position: relative; overflow: hidden; aspect-ratio: 16/10;
     background: $color-beige;
 
     .project-card--featured & { aspect-ratio: 21/9; }
     @media (max-width: $breakpoint-sm) { aspect-ratio: 4/3 !important; }
-
-    img { transition: transform $transition-elegant; }
-    &:hover img { transform: scale(1.05); }
   }
 
   &__placeholder {
     width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;
     font-family: $font-serif; font-size: $font-size-xl; color: $color-taupe;
-  }
-
-  &__overlay {
-    position: absolute; inset: 0; background: rgba(0,0,0,.3);
-    display: flex; align-items: center; justify-content: center;
-    opacity: 0; transition: opacity $transition-fast;
-  }
-  &__link:hover &__overlay { opacity: 1; }
-
-  &__cta {
-    color: #fff; font-size: $font-size-xs; text-transform: uppercase;
-    letter-spacing: 0.2em; border: 1px solid rgba(255,255,255,.6);
-    padding: $space-sm $space-xl;
   }
 
   &__info { padding: $space-lg 0; }

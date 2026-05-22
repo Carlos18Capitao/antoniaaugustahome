@@ -27,12 +27,6 @@ const routes = [
     meta: { title: 'Projetos — Antônio Augusta Home' },
   },
   {
-    path: '/projetos/:slug',
-    name: 'project',
-    component: () => import('@/pages/ProjectDetailPage.vue'),
-    meta: { title: 'Projeto — Antônio Augusta Home' },
-  },
-  {
     path: '/sobre',
     name: 'about',
     component: () => import('@/pages/AboutPage.vue'),

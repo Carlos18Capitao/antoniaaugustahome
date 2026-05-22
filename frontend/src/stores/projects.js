@@ -3,10 +3,18 @@ import { ref } from 'vue'
 
 const BASE = import.meta.env.BASE_URL
 
+function normalizeImages(projects) {
+  return projects.map(p => ({
+    ...p,
+    cover_image: p.cover_image ? BASE + p.cover_image : null,
+    images: (p.images || []).map(img => BASE + img),
+  }))
+}
+
 async function loadProjects() {
   const res = await fetch(BASE + 'data/projects.json')
   const json = await res.json()
-  return json.data
+  return normalizeImages(json.data)
 }
 
 export const useProjectStore = defineStore('projects', () => {
