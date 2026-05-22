@@ -38,7 +38,7 @@
               <div class="contact-card__body">
                 <strong>Telefone</strong>
                 <span>+244 941 708 763</span>
-                <em>Seg–Sex 10h–19h</em>
+                <em>Seg–Sex 09h–17h</em>
               </div>
             </a>
 
@@ -51,7 +51,6 @@
               <div class="contact-card__body">
                 <strong>Email</strong>
                 <span>info@antonioaugustahome.pt</span>
-                <em>Resposta em 24h</em>
               </div>
             </a>
 
@@ -64,8 +63,8 @@
               </div>
               <div class="contact-card__body">
                 <strong>Showroom</strong>
-                <span>Rua Example, 123<br>Luanda, Angola</span>
-                <em>Seg–Sex 10h–19h · Sáb 10h–14h</em>
+                <span>Bela Business Park, <br>Luanda, Angola</span>
+                <em>Seg–Sex 09h–17h</em>
               </div>
             </div>
           </div>
