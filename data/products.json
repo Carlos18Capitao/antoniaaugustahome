@@ -1,0 +1,220 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Sofá Milano Premium",
+      "slug": "sofa-milano-premium",
+      "short_description": "Elegância italiana em puro couro natural",
+      "description": "O Sofá Milano Premium é uma peça de design italiano que combina conforto supremo com linhas elegantes. Fabricado em couro natural de primeira qualidade, este sofá é o centro de qualquer sala de estar sofisticada.",
+      "formatted_price": "4.890,00 Kz",
+      "is_featured": true,
+      "is_available": true,
+      "dimensions": "240 x 95 x 82 cm",
+      "materials": "Couro Natural, Madeira de Carvalho",
+      "colors": "Castanho Cognac",
+      "category": { "id": 1, "name": "Sofás & Poltronas", "slug": "sofas-poltronas" },
+      "primary_image": {
+        "url": "https://img.freepik.com/free-photo/modern-luxury-domestic-room-with-comfortable-sofa-design-generated-by-ai_188544-40158.jpg?w=1380",
+        "thumbnail_url": "https://img.freepik.com/free-photo/modern-luxury-domestic-room-with-comfortable-sofa-design-generated-by-ai_188544-40158.jpg?w=740",
+        "alt_text": "Sofá Milano Premium - Vista frontal"
+      },
+      "images": [
+        {
+          "id": 1,
+          "url": "https://img.freepik.com/free-photo/modern-luxury-domestic-room-with-comfortable-sofa-design-generated-by-ai_188544-40158.jpg?w=1380",
+          "thumbnail_url": "https://img.freepik.com/free-photo/modern-luxury-domestic-room-with-comfortable-sofa-design-generated-by-ai_188544-40158.jpg?w=740",
+          "alt_text": "Sofá Milano Premium - Vista frontal"
+        },
+        {
+          "id": 2,
+          "url": "https://img.freepik.com/free-photo/interior-design-with-photoframes-sofa_23-2149385437.jpg?w=1380",
+          "thumbnail_url": "https://img.freepik.com/free-photo/interior-design-with-photoframes-sofa_23-2149385437.jpg?w=740",
+          "alt_text": "Sofá Milano Premium - Ambiente"
+        },
+        {
+          "id": 3,
+          "url": "https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf-near-bookshelf_105762-2175.jpg?w=1380",
+          "thumbnail_url": "https://img.freepik.com/free-photo/3d-rendering-loft-luxury-living-room-with-bookshelf-near-bookshelf_105762-2175.jpg?w=740",
+          "alt_text": "Sofá Milano Premium - Detalhe"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Poltrona Versailles",
+      "slug": "poltrona-versailles",
+      "short_description": "Inspiração clássica, conforto contemporâneo",
+      "description": "A Poltrona Versailles reinventa o clássico com materiais contemporâneos. Estrutura em madeira de nogueira com estofamento em veludo premium.",
+      "formatted_price": "1.890,00 Kz",
+      "is_featured": true,
+      "is_available": true,
+      "dimensions": "78 x 82 x 95 cm",
+      "materials": "Veludo, Madeira de Nogueira",
+      "colors": "Verde Esmeralda",
+      "category": { "id": 1, "name": "Sofás & Poltronas", "slug": "sofas-poltronas" },
+      "primary_image": {
+        "url": "https://img.freepik.com/free-photo/interior-design-with-armchair-plant_23-2149385449.jpg?w=1380",
+        "thumbnail_url": "https://img.freepik.com/free-photo/interior-design-with-armchair-plant_23-2149385449.jpg?w=740",
+        "alt_text": "Poltrona Versailles - Vista frontal"
+      },
+      "images": [
+        {
+          "id": 4,
+          "url": "https://img.freepik.com/free-photo/interior-design-with-armchair-plant_23-2149385449.jpg?w=1380",
+          "thumbnail_url": "https://img.freepik.com/free-photo/interior-design-with-armchair-plant_23-2149385449.jpg?w=740",
+          "alt_text": "Poltrona Versailles - Vista frontal"
+        },
+        {
+          "id": 5,
+          "url": "https://img.freepik.com/free-photo/scandinavian-living-room-interior-design-zoom-background_53876-143147.jpg?w=1380",
+          "thumbnail_url": "https://img.freepik.com/free-photo/scandinavian-living-room-interior-design-zoom-background_53876-143147.jpg?w=740",
+          "alt_text": "Poltrona Versailles - Ambiente"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Mesa de Jantar Carrara",
+      "slug": "mesa-de-jantar-carrara",
+      "short_description": "Mármore italiano e design atemporal",
+      "description": "Mesa de jantar com tampo em mármore Carrara genuíno e base em aço escovado. Uma peça que transforma qualquer refeição num momento especial.",
+      "formatted_price": "6.490,00 Kz",
+      "is_featured": true,
+      "is_available": true,
+      "dimensions": "220 x 100 x 76 cm",
+      "materials": "Mármore Carrara, Aço Escovado",
+      "colors": "Branco e Cinza",
+      "category": { "id": 2, "name": "Mesas & Secretárias", "slug": "mesas-secretarias" },
+      "primary_image": {
+        "url": "https://img.freepik.com/free-photo/dining-table-house_1203-1914.jpg?w=1380",
+        "thumbnail_url": "https://img.freepik.com/free-photo/dining-table-house_1203-1914.jpg?w=740",
+        "alt_text": "Mesa de Jantar Carrara - Vista superior"
+      },
+      "images": [
+        {
+          "id": 6,
+          "url": "https://img.freepik.com/free-photo/dining-table-house_1203-1914.jpg?w=1380",
+          "thumbnail_url": "https://img.freepik.com/free-photo/dining-table-house_1203-1914.jpg?w=740",
+          "alt_text": "Mesa de Jantar Carrara - Vista superior"
+        },
+        {
+          "id": 7,
+          "url": "https://img.freepik.com/free-photo/stylish-dining-room-interior-design_23-2151934545.jpg?w=1380",
+          "thumbnail_url": "https://img.freepik.com/free-photo/stylish-dining-room-interior-design_23-2151934545.jpg?w=740",
+          "alt_text": "Mesa de Jantar Carrara - Ambiente"
+        },
+        {
+          "id": 8,
+          "url": "https://img.freepik.com/free-photo/luxury-dining-room-with-golden-table-marble-floor_1258-177693.jpg?w=1380",
+          "thumbnail_url": "https://img.freepik.com/free-photo/luxury-dining-room-with-golden-table-marble-floor_1258-177693.jpg?w=740",
+          "alt_text": "Mesa de Jantar Carrara - Detalhe mármore"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Candeeiro Cascata Dourado",
+      "slug": "candeeiro-cascata-dourado",
+      "short_description": "Luz que inspira",
+      "description": "Candeeiro de teto com acabamento dourado e cascata de cristais. Peça statement para halls de entrada e salas de jantar.",
+      "formatted_price": "2.290,00 Kz",
+      "is_featured": true,
+      "is_available": true,
+      "dimensions": "Ø60 x 80 cm",
+      "materials": "Latão Dourado, Cristal",
+      "colors": "Dourado",
+      "category": { "id": 3, "name": "Iluminação", "slug": "iluminacao" },
+      "primary_image": {
+        "url": "https://img.freepik.com/free-photo/luxury-chandelier-illuminated-modern-home-interior-generated-by-ai_188544-42474.jpg?w=1380",
+        "thumbnail_url": "https://img.freepik.com/free-photo/luxury-chandelier-illuminated-modern-home-interior-generated-by-ai_188544-42474.jpg?w=740",
+        "alt_text": "Candeeiro Cascata Dourado - Vista geral"
+      },
+      "images": [
+        {
+          "id": 9,
+          "url": "https://img.freepik.com/free-photo/luxury-chandelier-illuminated-modern-home-interior-generated-by-ai_188544-42474.jpg?w=1380",
+          "thumbnail_url": "https://img.freepik.com/free-photo/luxury-chandelier-illuminated-modern-home-interior-generated-by-ai_188544-42474.jpg?w=740",
+          "alt_text": "Candeeiro Cascata Dourado - Vista geral"
+        },
+        {
+          "id": 10,
+          "url": "https://img.freepik.com/free-photo/golden-luxury-chandelier-vintage-style_181624-41169.jpg?w=1380",
+          "thumbnail_url": "https://img.freepik.com/free-photo/golden-luxury-chandelier-vintage-style_181624-41169.jpg?w=740",
+          "alt_text": "Candeeiro Cascata Dourado - Detalhe cristais"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Espelho Art Deco Grand",
+      "slug": "espelho-art-deco-grand",
+      "short_description": "Reflexo de bom gosto",
+      "description": "Espelho decorativo inspirado no estilo Art Deco, com moldura em madeira lacada dourada. Perfeito para halls e salas de estar.",
+      "formatted_price": "890,00 Kz",
+      "is_featured": false,
+      "is_available": true,
+      "dimensions": "120 x 80 cm",
+      "materials": "Madeira Lacada, Espelho Biselado",
+      "colors": "Dourado",
+      "category": { "id": 4, "name": "Decoração", "slug": "decoracao" },
+      "primary_image": {
+        "url": "https://img.freepik.com/free-photo/decorative-mirror-with-round-shape_23-2149872019.jpg?w=1380",
+        "thumbnail_url": "https://img.freepik.com/free-photo/decorative-mirror-with-round-shape_23-2149872019.jpg?w=740",
+        "alt_text": "Espelho Art Deco Grand - Vista frontal"
+      },
+      "images": [
+        {
+          "id": 11,
+          "url": "https://img.freepik.com/free-photo/decorative-mirror-with-round-shape_23-2149872019.jpg?w=1380",
+          "thumbnail_url": "https://img.freepik.com/free-photo/decorative-mirror-with-round-shape_23-2149872019.jpg?w=740",
+          "alt_text": "Espelho Art Deco Grand - Vista frontal"
+        },
+        {
+          "id": 12,
+          "url": "https://img.freepik.com/free-photo/design-interior-with-frames-mirror_23-2149385466.jpg?w=1380",
+          "thumbnail_url": "https://img.freepik.com/free-photo/design-interior-with-frames-mirror_23-2149385466.jpg?w=740",
+          "alt_text": "Espelho Art Deco Grand - No ambiente"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Cama King Royal",
+      "slug": "cama-king-royal",
+      "short_description": "Noites de realeza",
+      "description": "Cama king-size com cabeceira estofada em tecido premium. Design contemporâneo com acabamentos de luxo.",
+      "formatted_price": "3.890,00 Kz",
+      "is_featured": true,
+      "is_available": true,
+      "dimensions": "200 x 200 x 130 cm",
+      "materials": "Tecido Bouclé, Madeira de Freixo",
+      "colors": "Bege",
+      "category": { "id": 5, "name": "Quartos", "slug": "quartos" },
+      "primary_image": {
+        "url": "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv_105762-2167.jpg?w=1380",
+        "thumbnail_url": "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv_105762-2167.jpg?w=740",
+        "alt_text": "Cama King Royal - Vista geral"
+      },
+      "images": [
+        {
+          "id": 13,
+          "url": "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv_105762-2167.jpg?w=1380",
+          "thumbnail_url": "https://img.freepik.com/free-photo/3d-rendering-beautiful-luxury-bedroom-suite-hotel-with-tv_105762-2167.jpg?w=740",
+          "alt_text": "Cama King Royal - Vista geral"
+        },
+        {
+          "id": 14,
+          "url": "https://img.freepik.com/free-photo/luxury-bedroom-hotel_1150-10836.jpg?w=1380",
+          "thumbnail_url": "https://img.freepik.com/free-photo/luxury-bedroom-hotel_1150-10836.jpg?w=740",
+          "alt_text": "Cama King Royal - Ambiente quarto"
+        },
+        {
+          "id": 15,
+          "url": "https://img.freepik.com/free-photo/interior-modern-comfortable-hotel-room_1232-1822.jpg?w=1380",
+          "thumbnail_url": "https://img.freepik.com/free-photo/interior-modern-comfortable-hotel-room_1232-1822.jpg?w=740",
+          "alt_text": "Cama King Royal - Detalhe cabeceira"
+        }
+      ]
+    }
+  ]
+}

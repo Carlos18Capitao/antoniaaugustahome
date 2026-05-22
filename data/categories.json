@@ -1,0 +1,10 @@
+{
+  "data": [
+    { "id": 1, "name": "Sofás & Poltronas", "slug": "sofas-poltronas", "description": "Conforto e elegância para a sua sala de estar" },
+    { "id": 2, "name": "Mesas & Secretárias", "slug": "mesas-secretarias", "description": "Peças de design para refeições e trabalho" },
+    { "id": 3, "name": "Iluminação", "slug": "iluminacao", "description": "Candeeiros e luminárias de design" },
+    { "id": 4, "name": "Decoração", "slug": "decoracao", "description": "Acessórios decorativos premium" },
+    { "id": 5, "name": "Quartos", "slug": "quartos", "description": "Mobiliário de quarto sofisticado" },
+    { "id": 6, "name": "Exterior", "slug": "exterior", "description": "Mobiliário de exterior de luxo" }
+  ]
+}

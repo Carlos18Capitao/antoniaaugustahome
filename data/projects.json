@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "title": "Penthouse Vista Mar",
+      "slug": "penthouse-vista-mar",
+      "description": "Projeto completo de decoração para penthouse de 300m² com vista oceano. Tons neutros, materiais nobres e peças exclusivas criam um ambiente de serenidade luxuosa.",
+      "location": "Luanda, Angola",
+      "client_name": null,
+      "is_featured": true,
+      "cover_image": null,
+      "completed_at": "2024-06-15",
+      "images": []
+    },
+    {
+      "id": 2,
+      "title": "Villa Contemporânea",
+      "slug": "villa-contemporanea",
+      "description": "Decoração integral de villa moderna no Algarve. Fusão perfeita entre interior e exterior, com materiais naturais e design biofílico.",
+      "location": "Algarve, Angola",
+      "client_name": null,
+      "is_featured": true,
+      "cover_image": null,
+      "completed_at": "2024-03-20",
+      "images": []
+    },
+    {
+      "id": 3,
+      "title": "Apartamento Chiado",
+      "slug": "apartamento-chiado",
+      "description": "Renovação e decoração de apartamento histórico no coração de Luanda. Respeito pela arquitetura original com toques de modernidade.",
+      "location": "Luanda, Angola",
+      "client_name": null,
+      "is_featured": true,
+      "cover_image": null,
+      "completed_at": "2024-01-10",
+      "images": []
+    }
+  ]
+}
