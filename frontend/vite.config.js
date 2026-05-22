@@ -9,5 +9,5 @@ export default defineConfig({
       '@': resolve(__dirname, 'src'),
     },
   },
-  base: '/antonio-augusta-home/',
+  base: process.env.NODE_ENV === 'production' ? '/antonio-augusta-home/' : '/',
 })
