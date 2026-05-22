@@ -73,7 +73,7 @@ onMounted(() => store.fetchProjects())
 
 .page-hero {
   padding: calc(#{$header-height} + #{$space-4xl}) 0 $space-4xl;
-  background: $color-dark url('/storage/site/side-view-man-working-project.jpg') center/cover no-repeat;
+  background: $color-dark url('@/assets/images/side-view-man-working-project.jpg') center/cover no-repeat;
   text-align: center;
 
   &__subtitle {

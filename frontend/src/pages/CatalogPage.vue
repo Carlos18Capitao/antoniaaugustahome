@@ -139,7 +139,7 @@ onMounted(async () => {
 
 .page-hero {
   padding: calc(#{$header-height} + #{$space-4xl}) 0 $space-3xl;
-  background: url('/storage/site/saladeestar.jpg') center/cover no-repeat;
+  background: url('@/assets/images/saladeestar.jpg') center/cover no-repeat;
   background-color: rgba($color-dark, 0.5);
   background-blend-mode: multiply;
   text-align: center;

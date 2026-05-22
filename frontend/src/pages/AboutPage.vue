@@ -120,7 +120,7 @@ const steps = [
 .page-hero {
   padding: calc(#{$header-height} + #{$space-4xl}) 0 $space-4xl;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('http://localhost:82/storage/site/about-hero.jpeg') center no-repeat;
+    url('@/assets/images/about-hero.jpeg') center no-repeat;
   text-align: center;
 
   &__subtitle { font-size: $font-size-xs; text-transform: uppercase; letter-spacing: 0.3em; color: $color-gold; display: block; margin-bottom: $space-md; }

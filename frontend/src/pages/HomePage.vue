@@ -24,7 +24,7 @@
       <div class="container">
         <div class="intro__grid">
           <div class="intro__image">
-            <img src="http://localhost:82/storage/site/intro-image.jpeg" alt="Interior Premium" class="intro__image-photo" />
+            <img :src="introImg" alt="Interior Premium" class="intro__image-photo" />
           </div>
           <div class="intro__content">
             <span class="section-header__subtitle">Sobre Nós</span>
@@ -139,6 +139,7 @@
 import { onMounted, computed } from 'vue'
 import { useProductStore } from '@/stores/products'
 import { useProjectStore } from '@/stores/projects'
+import introImg from '@/assets/images/intro-image.jpeg'
 
 const productStore = useProductStore()
 const projectStore = useProjectStore()
@@ -169,7 +170,7 @@ onMounted(async () => {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: $color-dark url('/storage/site/saladeestar.jpg') center/cover no-repeat;
+  background: $color-dark url('@/assets/images/saladeestar.jpg') center/cover no-repeat;
   overflow: hidden;
 
   &__overlay {
