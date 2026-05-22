@@ -16,5 +16,5 @@ export default defineConfig({
       },
     },
   },
-  base: process.env.NODE_ENV === 'production' ? '/antonio-augusta-home/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/antoniaaugustahome/' : '/',
 })
